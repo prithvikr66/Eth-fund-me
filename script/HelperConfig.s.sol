@@ -27,7 +27,7 @@ contract HelperConfig is Script{
 
     }
     function getAnvilEthConfig ()public pure returns(NetworkConfig memory){
-
+       
     }
     function getMainNetEthConfig() public pure returns(NetworkConfig memory){
         NetworkConfig memory ethConfig=NetworkConfig({
